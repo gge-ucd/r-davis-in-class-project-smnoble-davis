@@ -24,3 +24,15 @@ list.files(path = "data") # RELATIVE file path
 
 # adding a script folder
 dir.create("scripts")
+
+str(weight) #structure
+class(weight) #class
+is.numeric(weight) #is it this?
+head(weight)
+head(weight, n=2)
+tail(weight, n=2)
+weight <- c(weight, 39)
+weight[2] #index into the object
+weight[1,3] #this thinks its row, column... need to use c()
+weight[c(2,3)]
+weight[c(1:3)]
