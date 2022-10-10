@@ -17,3 +17,4 @@ plus10 <- times3+10
 
 #selecting every other element
 final <- plus10[c(TRUE, FALSE)]
+
