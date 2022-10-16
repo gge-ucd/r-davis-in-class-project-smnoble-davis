@@ -1,3 +1,9 @@
+#what does set.seed do? It makes it so the randomly generated numbers are the same every time
+#run if is short for random uniform
+#other ways of removing all NAs
+na.omit(hw2)
+hw2[complete.cases(hw2)]
+
 surveys <- read.csv("data/portal_data_joined.csv")
 View(surveys)
 str(surveys)
